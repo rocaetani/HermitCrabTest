@@ -9,10 +9,15 @@
         <e p="Scripts" t="Include">
           <e p="AdsManager.cs" t="Include" />
           <e p="Controllers" t="Include">
+            <e p="InputController.cs" t="Include" />
             <e p="SceneController.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">
             <e p="StartButton.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Jump.cs" t="Include" />
+            <e p="Move.cs" t="Include" />
           </e>
         </e>
       </e>
