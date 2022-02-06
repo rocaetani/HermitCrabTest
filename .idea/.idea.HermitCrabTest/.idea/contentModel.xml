@@ -12,12 +12,25 @@
             <e p="InputController.cs" t="Include" />
             <e p="SceneController.cs" t="Include" />
           </e>
-          <e p="Menu" t="Include">
-            <e p="StartButton.cs" t="Include" />
+          <e p="Managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="Other" t="Include">
+            <e p="TagManager.cs" t="Include" />
+          </e>
+          <e p="PhaseComponents" t="Include">
+            <e p="StartPlatform.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="Jump.cs" t="Include" />
-            <e p="Move.cs" t="Include" />
+            <e p="Actions" t="Include">
+              <e p="Jump.cs" t="Include" />
+              <e p="Move.cs" t="Include" />
+            </e>
+            <e p="Player.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="ReturnToMenu.cs" t="Include" />
+            <e p="StartButton.cs" t="Include" />
           </e>
         </e>
       </e>
