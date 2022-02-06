@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartButton : MonoBehaviour
+public class ReturnToMenu : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public void OnClick()
     {
-        
+        SceneController.Instance.LoadMenu();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
